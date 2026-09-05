@@ -8,7 +8,7 @@ Cloneable Next.js App Router starter for three frontend motion patterns:
 
 Reduced motion is treated as a first-class path, not an afterthought.
 
-Live demo: **TODO** — deploy with `npx vercel` (see [Deploy](#deploy)).
+Live demo: [https://nextjs-motion-starter.vercel.app](https://nextjs-motion-starter.vercel.app)
 
 ## Quick start
 
@@ -160,13 +160,17 @@ Package manager is **npm** (`package-lock.json`).
 
 ## Deploy
 
+This repo is linked to Vercel. Pushes to `main` deploy [https://nextjs-motion-starter.vercel.app](https://nextjs-motion-starter.vercel.app).
+
+The project includes a `vercel.json` that sets `"framework": "nextjs"` so App Router output is routed correctly.
+
+To deploy a fork:
+
 ```bash
 npx vercel
 ```
 
-Import the GitHub repo in the Vercel dashboard if you want preview deploys on every branch. No environment variables are required.
-
-Live demo URL: **TODO** (owner: paste the production URL here after the first deploy).
+No environment variables are required.
 
 ## License
 
